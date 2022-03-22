@@ -1,0 +1,282 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body,
+a {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: normal;
+}
+html {
+    font-size: 16px;
+}
+*:focus {
+    outline: transparent;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1,
+.h1 {
+    font-size: 2.5rem;
+}
+h2,
+.h2 {
+    font-size: 2rem;
+}
+h3,
+.h3 {
+    font-size: 1.75rem;
+}
+h4,
+.h4 {
+    font-size: 1.5rem;
+}
+h5,
+.h5 {
+    font-size: 1.25rem;
+}
+h6,
+.h6 {
+    font-size: 0.8rem;
+}
+html,
+body {
+    -webkit-transition: 0.35s;
+    -moz-transition: 0.35s;
+    -ms-transition: 0.35s;
+    -o-transition: 0.35s;
+    transition: 0.35s;
+}
+
+section {
+    line-height: 43px;
+    background-image: url(/images/fon2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 1035px;
+    background-position-y: 0px;
+    height: 739px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.logo {
+    width: 38%;
+    text-align: center;
+}
+
+.logo img {
+    width: 110px;
+    padding-top: 20px;
+}
+
+.title {
+    text-align: center;
+    width: 40%;
+}
+
+.title p {
+    font-weight: 700;
+}
+
+fieldset label {
+    margin: 5px;
+}
+
+fieldset label input {
+    background-color: #F3F4F6;
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+section .button-registration {
+    width: 40%;
+    margin-top: 30px;
+}
+
+section .button-registration button {
+    background: #007DFB;
+    border: none;
+    border-radius: 30px;
+    width: 170px;
+    height: 63px;
+    color: #fff;
+}
+
+.dropdown .btn-secondary {
+    color: #707070;
+    background-color: #f3f4f6;
+    border: none;
+    width: 300px;
+    border-radius: 30px;
+    text-align: start;
+    padding-left: 20px;
+    display: flex;
+}
+
+.dropdown .images {
+    width: 74%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    inset: 10px auto auto -20px !important;
+    border-radius: 30px;
+    backdrop-filter: blur(7px);
+    background: #fff8;
+    box-shadow: 17px 10px 44px -9px;
+}
